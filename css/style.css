@@ -50,8 +50,4 @@
       -ms-flex-pack: center;
           justify-content: center;
 }
-
-.grid__item:nth-child(1), .grid__item:nth-child(4) {
-  grid-column: auto / span 2;
-}
 /*# sourceMappingURL=style.css.map */
