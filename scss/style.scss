@@ -82,6 +82,12 @@ main {
 
 }
 
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
+    grid-gap: 2rem;
+}
+
 @media (min-width: 768px) {
 
     main {
@@ -89,7 +95,7 @@ main {
         grid-template-columns: 4rem auto;
         grid-template-rows: 4rem auto;
         grid-template-areas: "nav header"
-                             "nav body";
+            "nav body";
         overflow: hidden;
     }
 
