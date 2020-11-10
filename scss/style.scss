@@ -15,10 +15,12 @@ li {
 }
 
 main {
+    display: grid;
     height: 100vh;
-    // display: grid;
-    // grid-template-rows: 3rem auto;
-    // overflow: hidden;
+    overflow: hidden;
+    max-width: 120rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .header {
@@ -39,6 +41,7 @@ main {
 }
 
 .body {
+    overflow-y: scroll;
     padding: 4.0625rem 0.75rem 4.75rem 0.75rem;
 }
 
